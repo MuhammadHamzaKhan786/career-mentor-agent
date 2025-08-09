@@ -1,37 +1,36 @@
-# 💼 Career Mentor Agent
+Career Mentor Agent
+An interactive AI-powered career guidance application built with Chainlit and the OpenAI Agent SDK + Runner.
+This project uses multiple agents to analyze your interests, recommend career fields, generate detailed skill-building roadmaps, and list real-world job opportunities.
 
-An intelligent conversational assistant built with **Chainlit** that helps users explore career paths, understand skill roadmaps, and discover real-world job roles using **Google Gemini API**.
+🚀 Features
+CareerAgent – Analyzes your interests to recommend relevant career paths
 
----
+SkillAgent – Generates a detailed, step-by-step skill roadmap using tools
 
-## 🚀 Features
+JobAgent – Lists real-world job titles in your chosen field
 
-- 🎯 **Explore Career Fields**  
-  Suggests in-demand fields such as Data Science, Software Development, Digital Marketing, and more.
+Multi-Agent Workflow – Agents hand off tasks seamlessly for a smooth user experience
 
-- 🧠 **Skill Roadmaps**  
-  Provides step-by-step learning paths tailored to each career.
+Interactive UI – Built with Chainlit for chat-based interaction
 
-- 💼 **Job Roles Explorer**  
-  Lists real-world roles to help users understand practical opportunities in their chosen field.
+Environment Variables – Secure API key handling using .env
 
-- 💬 **Conversational Experience**  
-  Seamless interaction with users through a stateful chat interface built using Chainlit.
+🛠️ Tech Stack
+Python 3.10+
 
----
+Chainlit – Interactive conversational UI
 
-## 🧩 Tech Stack
+OpenAI Agent SDK + Runner – Multi-agent orchestration
 
-- **Python 3.10+**
-- **Chainlit** for conversational UI
-- **Google Gemini API** for intelligence (via `litellm`)
-- **dotenv** for secure API key management
+dotenv – Environment variable management
 
----
+asyncio – Asynchronous task handling for smooth conversation flow
 
-## 🔐 Setup Instructions
+📦 Installation
+Clone the repository
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/career-mentor-agent.git
-   cd career-mentor-agent
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/career-mentor-agent.git
+cd career-mentor-agent
