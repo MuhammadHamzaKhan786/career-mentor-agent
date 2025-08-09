@@ -1,36 +1,34 @@
-Career Mentor Agent
-An interactive AI-powered career guidance application built with Chainlit and the OpenAI Agent SDK + Runner.
-This project uses multiple agents to analyze your interests, recommend career fields, generate detailed skill-building roadmaps, and list real-world job opportunities.
+ Career Mentor Agent
+An AI-powered career guidance tool built with Chainlit and the OpenAI Agent SDK + Runner.
+It uses multiple specialized agents to:
+
+Recommend career fields based on your interests
+
+Create detailed skill-building roadmaps
+
+Suggest real-world job titles you can target
 
 🚀 Features
-CareerAgent – Analyzes your interests to recommend relevant career paths
+🤖 CareerAgent – Analyzes your profile & suggests career paths
 
-SkillAgent – Generates a detailed, step-by-step skill roadmap using tools
+📚 SkillAgent – Generates structured, step-by-step learning plans
 
-JobAgent – Lists real-world job titles in your chosen field
+💼 JobAgent – Lists job opportunities in your chosen field
 
-Multi-Agent Workflow – Agents hand off tasks seamlessly for a smooth user experience
+🔄 Multi-Agent Workflow – Automatic handoff between agents
 
-Interactive UI – Built with Chainlit for chat-based interaction
+💬 Interactive Chat UI – Powered by Chainlit
 
-Environment Variables – Secure API key handling using .env
+🔐 Secure API Keys – Managed with .env
 
 🛠️ Tech Stack
 Python 3.10+
 
-Chainlit – Interactive conversational UI
+Chainlit – Conversational UI
 
 OpenAI Agent SDK + Runner – Multi-agent orchestration
 
-dotenv – Environment variable management
+python-dotenv – Environment variable handling
 
-asyncio – Asynchronous task handling for smooth conversation flow
+asyncio – Non-blocking async workflows
 
-📦 Installation
-Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/career-mentor-agent.git
-cd career-mentor-agent
